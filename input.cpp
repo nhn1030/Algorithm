@@ -16,5 +16,49 @@ int main(){
 // 실제 출력 값 : 다들
 
 
+// 2. scanf는 첫번째 매개변수로 받는 형식을 지정해서 받을 수 있음.
+// scanf는 입력형식이 까다롭거나, 이를 이용해야 할때만 사용하는 것이 좋으며 보통은 cin을 쓰는게 바람직하다.
+
+#include <bits/stdc++.h>
+using namespace std; 
+
+int a;
+double b;
+char c;
+
+int main(){
+    scanf("%d %lf %c", &a, &b, &c);
+    printf("%d\n", a);
+    printf("%lf\n", b);
+    printf("%c\n", c);
+}
+
+/*scanf 로 받을 수 있는 타입과 형식
+%d = int
+%lf = double
+%c = char
+%s = string
+*/
+
+// 3. 한꺼번에 받는 getline
+
+
+#include <bits/stdc++.h>
+using namespace std; 
+
+string s;
+
+int main(){
+    getline(cin, s);
+    cout << s << '\n';
+    return 0;
+}
+
+/*
+입력 : 여러분 안녕하세요.
+출력 : 여러분 안녕하세요.
+
+*/
+
 
 

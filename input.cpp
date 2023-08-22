@@ -61,4 +61,28 @@ int main(){
 */
 
 
+// exception :: bufferflush를 사용해야 하는 상황.
+
+#include <bits/stdc++.h>
+using namespace std; 
+
+int T;
+string s;
+
+int main(){
+
+    cin >> T; // 테스트 케이스의 개수를 입력 받는다.
+    string bufferflush; // 버퍼를 비우기 위한 임시 문자열 변수 선언
+    getline(cin, bufferflush); //개행 문자를 읽어서 버퍼를 비운다 
+
+    for {int i =0; i < T; i++){ // T번 반복하는 루프 시작
+        getline(cin, s); // 문자열을 입력받아, 변수 s에 저장
+        cout << s << '\n'; // s에 저장된 문자열을 출력하고 개행 문자를 출력
+        
+    }
+
+    return 0;
+
+}
+
 

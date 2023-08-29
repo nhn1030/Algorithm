@@ -16,23 +16,52 @@ using namespace std;
 // 반복함수의 팩토리얼
 
 
-int factorial(int number) {
+// int factorial(int number) {
     
-    int sum = 1;
+//     int sum = 1;
 
-    for (int i = 2; i <= number; i++) {
-        sum *= i;
-    }
+//     for (int i = 2; i <= number; i++) {
+//         sum *= i;
+//     }
 
-    return sum;
+//     return sum;
 
+// }
+
+// int main() {
+
+//     int num;
+    
+//     cout << "insert new number : " << "\n";
+//     cin >> num;
+
+//     int fact = factorial(num);
+
+//     cout << "factorial of " << num << " is: " << fact << "\n";
+
+//     return 0;
+
+// }
+
+
+// 반복문은 for문 또는 while문의 기능을 이용해서 무척이나 쉽게 구현을 할 수 있다.
+
+// 재귀함수의 팩토리얼?
+
+int factorial(int number) {
+
+    if (number == 1)
+        return 1;
+    else
+        return number * factorial(number - 1);
 }
+
 
 int main() {
 
     int num;
     
-    cout << "insert new number" << "\n";
+    cout << "insert new number : " << "\n";
     cin >> num;
 
     int fact = factorial(num);
@@ -42,3 +71,19 @@ int main() {
     return 0;
 
 }
+
+/*
+
+구현방식의 차이일뿐 결과 값은 똑같다. 
+
+그렇다면? 중요한 것은 동작원리.
+
+만약 factorial(5)를 호출한다고 가정해보자.
+
+1. factorial(5) 호출한다.
+2. number가 5이므로 if블록에서 걸러지지 않기 때문에, else 블록으로 들어감.
+3. return 5 * factorial(number - 1) 실행. 여기서 factorial(number - 1)는 새로운 함수 호출 프레임을 스택 메모리에 추가하며 호출됨.
+4. factorial(number - 1)의 호출이 완료되어 결괏값 4가 반환되고, 이를 이전 스택 프레임의 계산에 사용.
+5. return 5 * 4 계산 완료, 결괏값 20 반환.
+6. factorial(5)의 호출이 완료되어 최종적인 결과 20 반환.
+*/ 

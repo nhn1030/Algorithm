@@ -1,37 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T04:59:57.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="l46goPfZeWv_zR_VksZF" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T05:00:47.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VKZ4mSABKrgNz4FKPCCq" version="21.2.3" type="github">
   <diagram name="페이지-1" id="EZMaLR9xR8q_alWk8HOD">
     <mxGraphModel dx="867" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-1" value="factorial(num)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-1" value="factorial(num)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JXL0_WjvUPFtqPdFjoNo-1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JXL0_WjvUPFtqPdFjoNo-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="430" as="sourcePoint" />
             <mxPoint x="410" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-9" value="number * factorial(num - 1)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-9" value="number * factorial(num - 1)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="400" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-12" value="factorial(5) = 5 * factorial(4) = 120" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JXL0_WjvUPFtqPdFjoNo-9">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-12" value="factorial(5) = 5 * factorial(4) = 120" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JXL0_WjvUPFtqPdFjoNo-9" vertex="1">
           <mxGeometry x="5" y="36" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-10" value="num = 5&lt;br&gt;num이 1이 될경우 1을 리턴" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-10" value="num = 5&lt;br&gt;num이 1이 될경우 1을 리턴" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="295" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-13" value="자기자신을 호출하며 매개값을 4로 변경함" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-13" value="자기자신을 호출하며 매개값을 4로 변경함" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="425" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-17" value="자기자신을 호출하며 매개값을 3로 변경함" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-17" value="자기자신을 호출하며 매개값을 3로 변경함" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="565" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-20" value="자기자신을 호출하며 매개값을 2로 변경함" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-20" value="자기자신을 호출하며 매개값을 2로 변경함" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="710" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="860" as="sourcePoint" />
             <mxPoint x="350" y="720" as="targetPoint" />
@@ -41,40 +41,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-24" value="자기자신을 호출하며 매개값을 1로 변경함" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-24" value="자기자신을 호출하며 매개값을 1로 변경함" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="840" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="409.5" y="480" as="sourcePoint" />
             <mxPoint x="409.5" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="409.5" y="620" as="sourcePoint" />
             <mxPoint x="409.5" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="409.5" y="760" as="sourcePoint" />
             <mxPoint x="409.5" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-30" value="num 값이 1이 되어&lt;br&gt;1을 리턴하며 재귀함수 탈출" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-30" value="num 값이 1이 되어&lt;br&gt;1을 리턴하며 재귀함수 탈출" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="960" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="409.5" y="900" as="sourcePoint" />
             <mxPoint x="409.5" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-34" value="factorial(3) = 3 * 2 = 6" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-34" value="factorial(3) = 3 * 2 = 6" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="710" as="sourcePoint" />
             <mxPoint x="350" y="570" as="targetPoint" />
@@ -84,10 +84,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-36" value="factorial(4) = 4 * 6 = 24" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-36" value="factorial(4) = 4 * 6 = 24" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="565" as="sourcePoint" />
             <mxPoint x="350" y="425" as="targetPoint" />
@@ -97,34 +97,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-38" value="factorial(5) = 5 * 24 = 120" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-38" value="factorial(5) = 5 * 24 = 120" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;curved=1;" edge="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="189.55" y="430" as="sourcePoint" />
             <mxPoint x="189.55" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-44" value="factorial(5) = 5 * factorial(4) = 120" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-44" value="factorial(5) = 5 * factorial(4) = 120" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-45" value="number * factorial(num - 1)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-45" value="number * factorial(num - 1)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="680" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-46" value="factorial(3) = 3 * factorial(2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JXL0_WjvUPFtqPdFjoNo-45">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-46" value="factorial(3) = 3 * factorial(2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JXL0_WjvUPFtqPdFjoNo-45" vertex="1">
           <mxGeometry x="20" y="36" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-47" value="number * factorial(num - 1)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-47" value="number * factorial(num - 1)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="540" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-48" value="factorial(4) = 4 * factorial(3) =&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JXL0_WjvUPFtqPdFjoNo-47">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-48" value="factorial(4) = 4 * factorial(3) =&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JXL0_WjvUPFtqPdFjoNo-47" vertex="1">
           <mxGeometry x="15" y="36" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-49" value="number * factorial(num - 1)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-49" value="number * factorial(num - 1)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="820" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JXL0_WjvUPFtqPdFjoNo-50" value="factorial(2) = 2 * factorial(1) = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JXL0_WjvUPFtqPdFjoNo-49">
+        <mxCell id="JXL0_WjvUPFtqPdFjoNo-50" value="factorial(2) = 2 * factorial(1) = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JXL0_WjvUPFtqPdFjoNo-49" vertex="1">
           <mxGeometry x="10" y="36" width="190" height="30" as="geometry" />
         </mxCell>
       </root>

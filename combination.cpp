@@ -24,3 +24,5 @@ int main() {
     combi(-1, b); 
     return 0;
 }
+
+// 콤비네이션 재귀 함수.

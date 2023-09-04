@@ -45,3 +45,27 @@ int main() {
    return 0;
 }
 
+// array to pointer decay
+
+/*
+
+array to pointer decay는 말 그대로 배열을 포인터로 바인딩 할때 해당 배열의 크기 정보가 decay(부식)되는 것
+
+배열 형식이 포인터로 부식될 때, 배열의 첫번째 원소를 가리키는데, 아래의 코드를 살펴보면 다음을 확인할 수 있다.
+
+cout << c << "\n"; a의 포인터인 * c는  cout << &a[0] << "\n";의 결과 값과 같은 값을 출력한다.
+
+
+*/
+
+
+int a[3] = {1, 2, 3}; 
+
+int main(){
+    int * c = a;
+    cout << c << "\n"; 
+    cout << &a[0] << "\n"; 
+    cout << c + 1 << "\n"; 
+    cout << &a[1] << "\n"; 
+    return 0;
+}

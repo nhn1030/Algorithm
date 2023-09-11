@@ -11,24 +11,50 @@
 
 */
 
+// #include <bits/stdc++.h>
+// using namespace std;
+// typedef long long ll;
+
+// int a[100004], b, c, psum[100004], n, m;
+// int main() {
+//     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+//     cin >> n >> m;
+
+//     for(int i = 1; i <= n; i++) {
+//         cin >> a[i];
+//         psum[i] = psum[i - 1] + a[i];
+//     }
+
+//     for(int i = 1; i <= m; i++) {
+//         cin >> b >> c;
+//         cout << psum[c] - psum[b] << '\n';        
+//     }
+//     return 0;
+// }
+
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 
 int a[100004], b, c, psum[100004], n, m;
-int main() {
-    ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-    cin >> n >> m;
 
-    for(int i = 0; i <= n; i++) {
-        cin >> a[i];
-        psum[i] = psum[i - 1] + a[i];
+int main() {
+    ios_base::sync_with_stdio(false); 
+    cin.tie(NULL);
+    cout.tie(NULL);
+    
+    cin >> n >> m; // n은 배열의 크기, m은 확인할 질의의 개수 입니다.
+
+    for(int i = 1; i <= n; i++) { // 인덱스 1부터 시작
+        cin >> a[i]; // a의 [i] 번째 요소에 입력 받을 값 확인
+        cout << "a의" << i << "번째 요소의 값은" << a[i] << "입니다" << '\n'; // 디버깅 코드
+        psum[i] = psum[i - 1] + a[i]; // psum의 i 번째 요소는  psum[i - 1]번째와 a[i] 번째의 합 
     }
 
-    for(int i = 0; i <= m; i++) {
+    for(int i = 0; i < m; i++) {
         cin >> b >> c;
-        cout << psum[c] - psum[b] << '\n';        
+        cout << b << ' ~ ' << c << "구간의 합은" << psum[c] - psum[b - 1] << " 입니다" << '\n'; // b에서 c까지의 합을 계산
     }
     return 0;
 }
-

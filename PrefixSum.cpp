@@ -50,11 +50,13 @@ int main() {
         cin >> a[i]; // a의 [i] 번째 요소에 입력 받을 값 확인
         cout << "a의" << i << "번째 요소의 값은" << a[i] << "입니다" << '\n'; // 디버깅 코드
         psum[i] = psum[i - 1] + a[i]; // psum의 i 번째 요소는  psum[i - 1]번째와 a[i] 번째의 합 
+        cout << "1 부터 " << i << " 의 구간합은 " << psum[i] << '\n';
     }
 
     for(int i = 0; i < m; i++) {
         cin >> b >> c;
-        cout << b << ' ~ ' << c << "구간의 합은" << psum[c] - psum[b - 1] << " 입니다" << '\n'; // b에서 c까지의 합을 계산
+        cout << "psum[b] = " << psum[b] << '\n' << "psum[c] = " << psum[c]<< '\n';
+        cout << b << " ~ "  << c << "구간의 합은" << psum[c] - psum[b - 1] << " 입니다" << '\n'; // b에서 c까지의 합을 계산
     }
     return 0;
 }

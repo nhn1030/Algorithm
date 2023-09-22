@@ -11,28 +11,30 @@ void sumMean(vector<int> nv) {
 }
 
 void solve(vector<int> v, int m) {
-    vector<int> nv;
-    for (int i = 0; i < v.size(); i++) {
-        nv.push_back(v[i] / m * 100);  
-        sumMean(nv);
-    }
-}
+//     vector<int> nv;
+//     for (int i = 0; i < v.size(); i++) {
+//         nv.push_back(v[i] / m * 100);  
+//         sumMean(nv);
+//     }
+// }
 
-int main() {
-    int n;
-    cin >> n;
+// int main() {
+//     int n;
+//     cin >> n;
     
-    vector<int> v(n); // 크기가 n인 벡터를 생성
+//     vector<int> v(n); // 크기가 n인 벡터를 생성
     
-    for (int i = 0; i < n; i++) {
-        cin >> v[i];
-    }
+//     for (int i = 0; i < n; i++) {
+//         cin >> v[i];
+//     }
 
-    int m = *max_element(v.begin(), v.end()); // 벡터 내 최댓값을 찾아 변수 m에 저장
+//     int m = *max_element(v.begin(), v.end()); // 벡터 내 최댓값을 찾아 변수 m에 저장
 
-    cout << "최댓값: " << m << endl;
+//     cout << "최댓값: " << m << endl;
 
-    solve(v, m);
+//     solve(v, m);
 
-    return 0;
-}
+//     return 0;
+// }
+
+

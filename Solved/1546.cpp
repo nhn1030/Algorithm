@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void sumMean(vector<int> nv) {
-    int sum = 0;
-    for (int i = 0; i < nv.size(); i++) {
-        sum += nv[i];
-    }
-    double mean = sum / nv.size();
-    cout << mean << '\n';
-}
+// void sumMean(vector<int> nv) {
+//     int sum = 0;
+//     for (int i = 0; i < nv.size(); i++) {
+//         sum += nv[i];
+//     }
+//     double mean = sum / nv.size();
+//     cout << mean << '\n';
+// }
 
-void solve(vector<int> v, int m) {
+// void solve(vector<int> v, int m) {
 //     vector<int> nv;
 //     for (int i = 0; i < v.size(); i++) {
 //         nv.push_back(v[i] / m * 100);  
@@ -38,3 +38,5 @@ void solve(vector<int> v, int m) {
 // }
 
 
+
+}

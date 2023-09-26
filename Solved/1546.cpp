@@ -56,3 +56,5 @@ int main() {
 	cout.precision(6);
 	cout << result << endl;
 }
+
+// 컴파일 에러

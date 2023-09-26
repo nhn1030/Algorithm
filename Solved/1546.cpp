@@ -38,23 +38,26 @@ using namespace std;
 // }
 
 int main() {
-	int n;
-	int score[1000] = {};
-	int max = 0;
-	double result = 0;
+	int n, score;
+	float answer;
 	cin >> n;
 
-	for (int i = 0; i < n; i++) {
-		cin >> score[i];
-		if (score[i] > max)
-			max = score[i];
-		result += score[i];
-	}
-	result = (result / max * 100) / n;
+	int max = -1;
+	int sum = 0;
 
-	cout << fixed;
-	cout.precision(6);
-	cout << result << endl;
+	for (int i = 0; i < n; ++i) {
+		cin >> score;
+		sum += score;
+		if (score > max) {
+			max = score;
+		}
+	}
+
+	answer = sum * 100.0 / max / n;
+
+	cout << answer;
+
+	return 0;
 }
 
 // 컴파일 에러

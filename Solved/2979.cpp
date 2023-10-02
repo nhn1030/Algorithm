@@ -17,7 +17,7 @@ int main() {
             else if (cnt[j] == 3) ret += C * 3; // j번째 값이 3과 같은 경우 ret에 C*2를 합산
         }
     }
-    cout << ret << '\n';
+    cout << ret << '\n'; // ret 출력
 
     return 0;
 }

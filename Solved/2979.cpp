@@ -12,9 +12,9 @@ int main() {
     
     for(int j = 1; j < 101; j++) { //  1 ~ 100 해당시간대에 주차하는 차량의 수를 확인
         if (cnt[j]){  
-            if (cnt[j] == 1) ret += A;
-            else if (cnt[j] == 2) ret += B * 2;
-            else if (cnt[j] == 3) ret += C * 3;
+            if (cnt[j] == 1) ret += A; // j번째의 값이 1과 같을경우 ret에 A를 합산
+            else if (cnt[j] == 2) ret += B * 2; // j번째의 값이 2와 같은 경우 ret에 B*2 값을 합산
+            else if (cnt[j] == 3) ret += C * 3; // j번째 값이 3과 같은 경우 ret에 C*2를 합산
         }
     }
     cout << ret << '\n';

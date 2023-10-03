@@ -14,4 +14,6 @@ int main() {
     for (int i = 0; i < 26; i++) if (cnt[i] >= 5) ret += (i + 'a'); // 알파뱃 갯수 이상 나올수 없기때문에 0 ~ 26까지의 수를 반복한다. 이때 cnt[i]번째 배열의 값이 5와 같거나 큰경우 다섯명을 선발할 수 있는 기준이 됨 이후 문자열 ret 에 추가 (만약 i가 0일 경우 + 97의 값인 a문자 추가)
     if (ret.size()) cout << ret << '\n'; // 본 조건문은 ret 문자배열의 값이 0이 아닌지를 확인함 size는 배열의 길이가 0이 아닌 경우 참을 반환함
     else cout << "PREDAJA" << '\n'; // 그외의 경우 PREDAJA를 반환하며 return;
+
+    return 0;
 }

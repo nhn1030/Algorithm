@@ -1,7 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+// 문자열 함수에 대한 학습이 필요함
+
+int n;
+string s, ori_s, pre, suf;
+
 int main() {
+    cin >> n;
+    cin >> ori_s;
+
+    int pos = ori_s.find("*");
+    pre = ori_s.substr(0, pos);
+    suf = ori_s.substr(pos + 1);
+    
+
+
+//별표를 기준으로 앞과 뒤가 맞는 지만 비교하면됨
 
 /*
 첫째 줄에 파일의 개수 N이 주어진다. (1 ≤ N ≤ 100)

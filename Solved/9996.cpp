@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-// 문자열 함수에 대한 학습이 필요함
-
 int n;
 string s, ori_s, pre, suf;
 
@@ -14,8 +11,21 @@ int main() {
     int pos = ori_s.find("*");
     pre = ori_s.substr(0, pos);
     suf = ori_s.substr(pos + 1);
-    
 
+    for(int i = 0; i < n; i++) {
+        if (pre.size() + suf.size() > s.size()) {
+            cout << "NE\n";
+        }
+        else{
+            if(pre == s.substr(0, pre.size() && suf == s.substr(s.size() - suf.size()))) cout << "DA\n";
+            else cout << "NE\n";
+            }
+    
+    }
+    
+    return 0;
+
+}
 
 //별표를 기준으로 앞과 뒤가 맞는 지만 비교하면됨
 
@@ -37,6 +47,3 @@ int main() {
 
 참고로, "DA"는 크로아티어어로 "YES"를, "NE"는 "NO"를 의미한다.
 */
-
-
-}

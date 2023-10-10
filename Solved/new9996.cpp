@@ -36,9 +36,13 @@ int main() {
                     break;
                 }
             }
+            if (match) {
+                cout << "DA\n";
+            }
+            else {
+                cout << "NE\n";
+            }
         }
     }
-
-
-
+    return 0;
 }

@@ -13,19 +13,23 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int N, M;
-    string s;
+    int N, M; // N = 포켓몬 수, M = 문제 개수
+    string s; // s = 도감 내 포켓몬,
+    string a[100004]; //  문제 입력
 
     for (int i = 0; i < N; i++) {
         // 포켓몬 도감에 들어갈 n개의 포켓몬 입력 받기
         cin >> s;
         mp1[i + 1] = s;
         mp2[s] = i + 1;
+        a[i + 1] = s;
     }
 
     for (int i = 0; i < M; i++) {
         // 문제 입력 받아야함
         // 숫자를 받을 경우 문자로, 문자를 받을 경우 숫자로 변환하는 로직이 필요
+        cin >> s;
+        
     }
 
 

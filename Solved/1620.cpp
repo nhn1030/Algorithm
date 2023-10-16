@@ -17,6 +17,8 @@ int main(){
     string s; // s = 도감 내 포켓몬,
     string a[100004]; //  문제 입력
 
+    cin >> N >> M;
+
     for (int i = 0; i < N; i++) {
         // 포켓몬 도감에 들어갈 n개의 포켓몬 입력 받기
         cin >> s;

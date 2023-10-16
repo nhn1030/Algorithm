@@ -22,7 +22,6 @@ int main(){
         cin >> s;
         mp1[i + 1] = s;
         mp2[s] = i + 1;
-        a[i + 1] = s;
     }
 
     for (int i = 0; i < M; i++) {
@@ -31,9 +30,14 @@ int main(){
         cin >> s;
         
         // atoi 학습필요
+
+        if (atoi(s.c_str()) == 0) { // 문제가 문자열인 경우
+            cout << mp2[s] << "\n"; // 해당 포켓몬에 맵핑된 숫자 출력
+        }
+        else { // 문제가 숫자인 경우
+            cout << mp1[atoi(s.c_str())] << '\n'; //
+        }
     }
-
-
 
     return 0;
 }
